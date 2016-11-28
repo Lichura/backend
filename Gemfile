@@ -28,6 +28,14 @@ gem 'jwt'
 
 gem 'simple_command'
 
+
+#sabisu
+gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.2'
+gem 'furatto'
+gem 'font-awesome-rails'
+gem 'simple_form'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
